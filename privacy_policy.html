@@ -63,6 +63,16 @@
       font-weight: 700;
     }
   </style>
+  <script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function() {
+				try {
+					window.webkit.messageHandlers.Complete.postMessage("");
+				} catch (e) {
+
+				}
+			});
+		</script>
+
 </head>
 <body>
   <div class="wrap">
